@@ -20,10 +20,10 @@ L’objectif est de proposer une édition analytique qui permette de naviguer da
 
 Afin de parvenir à mon objectif, je pense me pencher sur les balises suivantes:
 
-Chaque poème sera structuré à l'aide des balises TEI habituelles: <div>, <head>, <lg>, <l>
+Chaque poème sera structuré à l'aide des balises TEI habituelles: div, head, lg, l
 
-Ensuite, à l'aide de la balise <rs>, j'encoderai les thèmes, allusions et symboliques. Ceux-ci seront liés aux attributs type/key afin de générer un index. Il y aura un type différent si c'est une allusion ou une thématique. 
+Ensuite, à l'aide de la balise rs, j'encoderai les thèmes, allusions et symboliques. Ceux-ci seront liés aux attributs type/key afin de générer un index. Il y aura un type différent si c'est une allusion ou une thématique. 
 
-Il sera possible pour moi d'apporter un commentaire d'analyse grâce à la balise <note type="intérpretation">
+Il sera possible pour moi d'apporter un commentaire d'analyse grâce à la balise note type="intérpretation"
 
 
