@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="schemas/tei_lite_customized/mystyle.css" type="text/css"?>
-<?xml-model href="schemas/tei_lite_customized/document.xsd"
-type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet href="docs/mystyle.css" type="text/css"?><?xml-model href="documents_TEI/schemas/tei_lite_customized/document.xsd"
+type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?><TEI>
 
   <teiHeader>
     <fileDesc>
@@ -11,7 +7,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
         <title>Poems by Emily Brontë – A Symbolic and Intertextual Digital Edition</title>
         <respStmt>
           <resp>editor</resp>
-          <name xml:id="LMP">Laura Maia Pinto</name>
+          <name id="LMP">Laura Maia Pinto</name>
         </respStmt>
       </titleStmt>
 
@@ -56,7 +52,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
     <group>
 
 
-      <text xml:id="poem1">
+      <text id="poem1">
   <body>
     <div type="poem">
       <head>The Night is Darkening Round Me</head>
@@ -84,7 +80,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-     <text xml:id="poem2">
+     <text id="poem2">
   <body>
     <div type="poem">
       <head>Ah! Why, Because the Dazzling Sun</head>
@@ -161,7 +157,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem3">
+      <text id="poem3">
   <body>
     <div type="poem">
       <head>Fall, Leaves, Fall</head>
@@ -183,7 +179,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem4">
+      <text id="poem4">
   <body>
     <div type="poem">
       <head>Love and Friendship</head>
@@ -212,7 +208,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem5">
+      <text id="poem5">
   <body>
     <div type="poem">
       <head>No Coward Soul Is Mine</head>
@@ -264,7 +260,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem6">
+      <text id="poem6">
   <body>
     <div type="poem">
       <head>[Long Neglect Has Worn Away]</head>
@@ -293,7 +289,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-     <text xml:id="poem7">
+     <text id="poem7">
   <body>
     <div type="poem">
       <head>Silent is the House</head>
@@ -311,7 +307,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem8">
+      <text id="poem8">
   <body>
     <div type="poem">
       <head>Remembrance</head>
@@ -364,7 +360,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem9">
+      <text id="poem9">
   <body>
     <div type="poem">
       <head>I Am the Only Being Whose Doom</head>
@@ -399,7 +395,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem10">
+      <text id="poem10">
   <body>
     <div type="poem">
       <head>Shall Earth No More Inspire Thee</head>
@@ -445,7 +441,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem11">
+      <text id="poem11">
   <body>
     <div type="poem">
       <head>Stanzas</head>
@@ -474,7 +470,7 @@ type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 
 
-      <text xml:id="poem12">
+      <text id="poem12">
   <body>
     <div type="poem">
       <head>Plead For Me</head>
