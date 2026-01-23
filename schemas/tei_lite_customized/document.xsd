@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TEI">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="teiHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fileDesc">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="titleStmt">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="title" type="xs:string" />
+                          <xs:element name="respStmt">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="resp" type="xs:string" />
+                                <xs:element name="name">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="id" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="publicationStmt">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="p" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="sourceDesc">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="p" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="text">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="front">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="div" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence minOccurs="0">
+                          <xs:element name="p" minOccurs="0" type="xs:string" />
+                          <xs:element name="head" minOccurs="0" type="xs:string" />
+                          <xs:element name="list" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="item" maxOccurs="unbounded" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="type" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="group">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="text" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="body">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="div">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="head" type="xs:string" />
+                                      <xs:element name="lg" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="l" maxOccurs="unbounded">
+                                              <xs:complexType mixed="true">
+                                                <xs:sequence minOccurs="0">
+                                                  <xs:element name="seg" minOccurs="0">
+                                                    <xs:complexType>
+                                                      <xs:simpleContent>
+                                                        <xs:extension base="xs:string">
+                                                          <xs:attribute name="ana" use="required">
+                                                            <xs:simpleType>
+                                                              <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="love" />
+                                                                <xs:enumeration value="nature" />
+                                                                <xs:enumeration value="sadness" />
+                                                                <xs:enumeration value="season" />
+                                                              </xs:restriction>
+                                                            </xs:simpleType>
+                                                          </xs:attribute>
+                                                        </xs:extension>
+                                                      </xs:simpleContent>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="type" use="required" fixed="poem" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="back">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="div">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="p" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="type" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
