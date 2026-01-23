@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="schemas/tei_lite_customized/mystyle.css" type="text/css"?>
+<?xml-model href="schemas/tei_lite_customized/document.xsd"
+type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Poems by Emily Brontë – A Symbolic and Intertextual Digital Edition</title>
+        <respStmt>
+          <resp>editor</resp>
+          <name xml:id="LMP">Laura Maia Pinto</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <p>Not for distribution.</p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <p>Poems by Emily Brontë consulted on the Poetry Foundation website.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+
+
+    <front>
+      <div type="dedication">
+        <p>In admiration of Emily Brontë’s poetic imagination.</p>
+      </div>
+
+      <div type="contents">
+        <head>Table of Contents</head>
+        <list>
+          <item>I. The Night is Darkening Round Me</item>
+          <item>II. Ah! Why, Because the Dazzling Sun</item>
+          <item>III. Fall, Leaves, Fall</item>
+          <item>IV. Love and Friendship</item>
+          <item>V. No Coward Soul Is Mine</item>
+          <item>VI. [Long Neglect Has Worn Away]</item>
+          <item>VII. Silent Is the House</item>
+          <item>VIII. Remembrance</item>
+          <item>IX. I Am the Only Being Whose Doom</item>
+          <item>X. Shall Earth No More Inspire Thee</item>
+          <item>XI. Stanzas</item>
+          <item>XII. Plead for Me</item>
+        </list>
+      </div>
+    </front>
+
+
+    <group>
+
+
+      <text xml:id="poem1">
+        <body>
+          <div type="poem">
+            <head>The Night is Darkening Round Me</head>
+
+            <lg>
+              <l>The night is darkening round me,</l>
+              <l>The wild winds coldly blow;</l>
+              <l>But a tyrant spell has bound me</l>
+              <l>And I cannot, cannot go.</l>
+            </lg>
+
+            <lg>
+              <l>The giant trees are bending</l>
+              <l>Their bare boughs weighed with snow;</l>
+              <l>And the storm is fast descending,</l>
+              <l>And yet I cannot go.</l>
+            </lg>
+
+            <lg>
+              <l>Clouds beyond clouds above me,</l>
+              <l>Wastes beyond wastes below;</l>
+              <l>But nothing drear can move me:</l>
+              <l>I will not, cannot go.</l>
+            </lg>
+          </div>
+        </body>
+      </text>
+
+
+      <text xml:id="poem2">
+  <body>
+    <div type="poem">
+      <head>Ah! Why, Because the Dazzling Sun</head>
+
+      <lg>
+        <l>Ah! why, because the dazzling sun</l>
+        <l>Restored my earth to joy</l>
+        <l>Have you departed, every one,</l>
+        <l>And left a desert sky?</l>
+      </lg>
+
+      <lg>
+        <l>All through the night, your glorious eyes</l>
+        <l>Were gazing down in mine,</l>
+        <l>And with a full heart's thankful sighs</l>
+        <l>I blessed that watch divine!</l>
+      </lg>
+
+      <lg>
+        <l>I was at peace, and drank your beams</l>
+        <l>As they were life to me</l>
+        <l>And revelled in my changeful dreams</l>
+        <l>Like petrel on the sea.</l>
+      </lg>
+
+      <lg>
+        <l>Thought followed thought—star followed star</l>
+        <l>Through boundless regions on,</l>
+        <l>While one sweet influence, near and far,</l>
+        <l>Thrilled through and proved us one.</l>
+      </lg>
+
+      <lg>
+        <l>Why did the morning rise to break</l>
+        <l>So great, so pure a spell,</l>
+        <l>And scorch with fire the tranquil cheek</l>
+        <l>Where your cool radiance fell?</l>
+      </lg>
+
+      <lg>
+        <l>Blood-red he rose, and arrow-straight,</l>
+        <l>His fierce beams struck my brow;</l>
+        <l>The soul of Nature sprang elate,</l>
+        <l>But mine sank sad and low!</l>
+      </lg>
+
+      <lg>
+        <l>My lids closed down—yet through their veil</l>
+        <l>I saw him blazing still;</l>
+        <l>And bathe in gold the misty dale,</l>
+        <l>And flash upon the hill.</l>
+      </lg>
+
+      <lg>
+        <l>I turned me to the pillow then</l>
+        <l>To call back Night, and see</l>
+        <l>Your worlds of solemn light, again</l>
+        <l>Throb with my heart and me!</l>
+      </lg>
+
+      <lg>
+        <l>It would not do—the pillow glowed</l>
+        <l>And glowed both roof and floor,</l>
+        <l>And birds sang loudly in the wood,</l>
+        <l>And fresh winds shook the door.</l>
+      </lg>
+
+      <lg>
+        <l>The curtains waved, the wakened flies</l>
+        <l>Were murmuring round my room,</l>
+        <l>Imprisoned there, till I should rise</l>
+        <l>And give them leave to roam.</l>
+      </lg>
+
+      <lg>
+        <l>O Stars and Dreams and Gentle Night;</l>
+        <l>O Night and Stars return!</l>
+        <l>And hide me from the hostile light</l>
+        <l>That does not warm, but burn—</l>
+      </lg>
+
+      <lg>
+        <l>That drains the blood of suffering men;</l>
+        <l>Drinks tears, instead of dew:</l>
+        <l>Let me sleep through his blinding reign,</l>
+        <l>And only wake with you!</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+
+      <text xml:id="poem3">
+        <body>
+          <div type="poem">
+            <head>Fall, Leaves, Fall</head>
+
+            <lg>
+              <l>Fall, leaves, fall; die, flowers, away;</l>
+              <l>Lengthen night and shorten day;</l>
+              <l>Every leaf speaks bliss to me</l>
+              <l>Fluttering from the autumn tree.</l>
+            </lg>
+
+            <lg>
+              <l>I shall smile when wreaths of snow</l>
+              <l>Blossom where the rose should grow;</l>
+              <l>I shall sing when night’s decay</l>
+              <l>Ushers in a drearier day.</l>
+            </lg>
+          </div>
+        </body>
+      </text>
+
+
+      <text xml:id="poem4">
+  <body>
+    <div type="poem">
+      <head>Love and Friendship</head>
+
+      <lg>
+        <l>Love is like the wild rose-briar,</l>
+        <l>Friendship like the holly-tree—</l>
+        <l>The holly is dark when the rose-briar blooms</l>
+        <l>But which will bloom most constantly?</l>
+      </lg>
+
+      <lg>
+        <l>The wild rose-briar is sweet in spring,</l>
+        <l>Its summer blossoms scent the air;</l>
+        <l>Yet wait till winter comes again</l>
+        <l>And who will call the wild-briar fair?</l>
+      </lg>
+
+      <lg>
+        <l>Then scorn the silly rose-wreath now</l>
+        <l>And deck thee with the holly’s sheen,</l>
+        <l>That when December blights thy brow</l>
+        <l>He still may leave thy garland green.</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+
+      <text xml:id="poem5">
+  <body>
+    <div type="poem">
+      <head>No Coward Soul Is Mine</head>
+
+      <lg>
+        <l>No coward soul is mine</l>
+        <l>No trembler in the world's storm-troubled sphere</l>
+        <l>I see Heaven's glories shine</l>
+        <l>And Faith shines equal arming me from Fear</l>
+      </lg>
+
+      <lg>
+        <l>O God within my breast</l>
+        <l>Almighty ever-present Deity</l>
+        <l>Life, that in me hast rest,</l>
+        <l>As I Undying Life, have power in Thee</l>
+      </lg>
+
+      <lg>
+        <l>Vain are the thousand creeds</l>
+        <l>That move men's hearts, unutterably vain,</l>
+        <l>Worthless as withered weeds</l>
+        <l>Or idlest froth amid the boundless main</l>
+      </lg>
+
+      <lg>
+        <l>To waken doubt in one</l>
+        <l>Holding so fast by thy infinity,</l>
+        <l>So surely anchored on</l>
+        <l>The steadfast rock of Immortality.</l>
+      </lg>
+
+      <lg>
+        <l>With wide-embracing love</l>
+        <l>Thy spirit animates eternal years</l>
+        <l>Pervades and broods above,</l>
+        <l>Changes, sustains, dissolves, creates and rears</l>
+      </lg>
+
+      <lg>
+        <l>Though earth and moon were gone</l>
+        <l>And suns and universes ceased to be</l>
+        <l>And Thou wert left alone</l>
+        <l>Every Existence would exist in thee</l>
+      </lg>
+
+      <lg>
+        <l>There is not room for Death</l>
+        <l>Nor atom that his might could render void</l>
+        <l>Since thou art Being and Breath</l>
+        <l>And what thou art may never be destroyed.</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+      <text xml:id="poem6">
+  <body>
+    <div type="poem">
+      <head>[Long Neglect Has Worn Away]</head>
+
+      <lg>
+        <l>Long neglect has worn away</l>
+        <l>Half the sweet enchanting smile;</l>
+        <l>Time has turned the bloom to gray;</l>
+        <l>Mold and damp the face defile.</l>
+      </lg>
+
+      <lg>
+        <l>But that lock of silky hair,</l>
+        <l>Still beneath the picture twined,</l>
+        <l>Tells what once those features were,</l>
+        <l>Paints their image on the mind.</l>
+      </lg>
+
+      <lg>
+        <l>Fair the hand that traced that line,</l>
+        <l>“Dearest, ever deem me true”;</l>
+        <l>Swiftly flew the fingers fine</l>
+        <l>When the pen that motto drew.</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+
+     <text xml:id="poem7">
+  <body>
+    <div type="poem">
+      <head>Silent is the House</head>
+
+      <lg>
+        <l>Come, the wind may never again</l>
+        <l>Blow as now it blows for us;</l>
+        <l>And the stars may never again shine as now they shine;</l>
+        <l>Long before October returns,</l>
+        <l>Seas of blood will have parted us;</l>
+        <l>And you must crush the love in your heart, and I the love in mine!</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+      <text xml:id="poem8">
+  <body>
+    <div type="poem">
+      <head>Remembrance</head>
+
+      <lg>
+        <l>Cold in the earth—and the deep snow piled above thee,</l>
+        <l>Far, far removed, cold in the dreary grave!</l>
+        <l>Have I forgot, my only Love, to love thee,</l>
+        <l>Severed at last by Time's all-severing wave?</l>
+      </lg>
+
+      <lg>
+        <l>Now, when alone, do my thoughts no longer hover</l>
+        <l>Over the mountains, on that northern shore,</l>
+        <l>Resting their wings where heath and fern-leaves cover</l>
+        <l>Thy noble heart forever, ever more?</l>
+      </lg>
+
+      <lg>
+        <l>Cold in the earth—and fifteen wild Decembers,</l>
+        <l>From those brown hills, have melted into spring:</l>
+        <l>Faithful, indeed, is the spirit that remembers</l>
+        <l>After such years of change and suffering!</l>
+      </lg>
+
+      <lg>
+        <l>Sweet Love of youth, forgive, if I forget thee,</l>
+        <l>While the world's tide is bearing me along;</l>
+        <l>Other desires and other hopes beset me,</l>
+        <l>Hopes which obscure, but cannot do thee wrong!</l>
+      </lg>
+
+      <lg>
+        <l>No later light has lightened up my heaven,</l>
+        <l>No second morn has ever shone for me;</l>
+        <l>All my life's bliss from thy dear life was given,</l>
+        <l>All my life's bliss is in the grave with thee.</l>
+      </lg>
+
+      <lg>
+        <l>But, when the days of golden dreams had perished,</l>
+        <l>And even Despair was powerless to destroy,</l>
+        <l>Then did I learn how existence could be cherished,</l>
+        <l>Strengthened, and fed without the aid of joy.</l>
+      </lg>
+
+      <lg>
+        <l>Then did I check the tears of useless passion—</l>
+        <l>Weaned my young soul from yearning after thine;</l>
+        <l>Sternly denied its burning wish to hasten</l>
+        <l>Down to that tomb already more than mine.</l>
+      </lg>
+
+      <lg>
+        <l>And, even yet, I dare not let it languish,</l>
+        <l>Dare not indulge in memory's rapturous pain;</l>
+        <l>Once drinking deep of that divinest anguish,</l>
+        <l>How could I seek the empty world again?</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+
+      <text xml:id="poem9">
+  <body>
+    <div type="poem">
+      <head>I Am the Only Being Whose Doom</head>
+
+      <lg>
+        <l>I am the only being whose doom</l>
+        <l>No tongue would ask, no eye would mourn;</l>
+        <l>I never caused a thought of gloom,</l>
+        <l>A smile of joy, since I was born.</l>
+      </lg>
+
+      <lg>
+        <l>In secret pleasure, secret tears,</l>
+        <l>This changeful life has slipped away,</l>
+        <l>As friendless after eighteen years,</l>
+        <l>As lone as on my natal day.</l>
+      </lg>
+
+      <lg>
+        <l>There have been times I cannot hide,</l>
+        <l>There have been times when this was drear,</l>
+        <l>When my sad soul forgot its pride</l>
+        <l>And longed for one to love me here.</l>
+      </lg>
+
+      <lg>
+        <l>But those were in the early glow</l>
+        <l>Of feelings since subdued by care;</l>
+        <l>And they have died so long ago,</l>
+        <l>I hardly now believe they were.</l>
+      </lg>
+
+      <lg>
+        <l>First melted off the hope of youth,</l>
+        <l>Then fancy’s rainbow fast withdrew;</l>
+        <l>And then experience told me truth</l>
+        <l>In mortal bosoms never grew.</l>
+      </lg>
+
+      <lg>
+        <l>’Twas grief enough to think mankind</l>
+        <l>All hollow, servile, insincere;</l>
+        <l>But worse to trust to my own mind</l>
+        <l>And find the same corruption there.</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+
+      <text xml:id="poem10">
+  <body>
+    <div type="poem">
+      <head>Shall Earth no more inspire thee</head>
+
+      <lg>
+        <l>Shall Earth no more inspire thee,</l>
+        <l>Thou lonely dreamer now?</l>
+        <l>Since passion may not fire thee</l>
+        <l>Shall Nature cease to bow?</l>
+      </lg>
+
+      <lg>
+        <l>Thy mind is ever moving</l>
+        <l>In regions dark to thee;</l>
+        <l>Recall its useless roving—</l>
+        <l>Come back and dwell with me.</l>
+      </lg>
+
+      <lg>
+        <l>I know my mountain breezes</l>
+        <l>Enchant and soothe the still—</l>
+        <l>I know my sunshine pleases</l>
+        <l>Despite thy wayward will.</l>
+      </lg>
+
+      <lg>
+        <l>When day with evening blending</l>
+        <l>Sinks from the summer sky,</l>
+        <l>I've seen thy spirit bending</l>
+        <l>In fond idolatry.</l>
+      </lg>
+
+      <lg>
+        <l>I've watched thee every hour—</l>
+        <l>I know my mighty sway—</l>
+        <l>I know my magic power</l>
+        <l>To drive thy griefs away.</l>
+      </lg>
+
+      <lg>
+        <l>Few hearts to mortals given</l>
+        <l>On earth so wildly pine,</l>
+        <l>Yet none would ask a Heaven</l>
+        <l>More like the Earth than mine.</l>
+      </lg>
+
+      <lg>
+        <l>Then let my winds caress thee—</l>
+        <l>Thy comrade let me be—</l>
+        <l>Since naught beside can bless thee,</l>
+        <l>Return and dwell with me.</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+      <text xml:id="poem11">
+  <body>
+    <div type="poem">
+      <head>Stanzas</head>
+
+      <lg>
+        <l>I'll not weep that thou art going to leave me,</l>
+        <l>There's nothing lovely here;</l>
+        <l>And doubly will the dark world grieve me,</l>
+        <l>While thy heart suffers there.</l>
+      </lg>
+
+      <lg>
+        <l>I'll not weep, because the summer's glory</l>
+        <l>Must always end in gloom;</l>
+        <l>And, follow out the happiest story—</l>
+        <l>It closes with a tomb!</l>
+      </lg>
+
+      <lg>
+        <l>And I am weary of the anguish</l>
+        <l>Increasing winters bear;</l>
+        <l>Weary to watch the spirit languish</l>
+        <l>Through years of dead despair.</l>
+      </lg>
+
+      <lg>
+        <l>So, if a tear, when thou art dying,</l>
+        <l>Should haply fall from me,</l>
+        <l>It is but that my soul is sighing,</l>
+        <l>To go and rest with thee.</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+
+      <text xml:id="poem12">
+  <body>
+    <div type="poem">
+      <head>Plead For Me</head>
+
+      <lg>
+        <l>OH, thy bright eyes must answer now,</l>
+        <l>When Reason, with a scornful brow,</l>
+        <l>Is mocking at my overthrow !</l>
+        <l>Oh, thy sweet tongue must plead for me</l>
+        <l>And tell why I have chosen thee !</l>
+      </lg>
+
+      <lg>
+        <l>Stern Reason is to judgment come,</l>
+        <l>Arrayed in all her forms of gloom :</l>
+        <l>Wilt thou, my advocate, be dumb ?</l>
+        <l>No, radiant angel, speak and say</l>
+        <l>Why I did cast the world away,—</l>
+      </lg>
+
+      <lg>
+        <l>Why I have persevered to shun</l>
+        <l>The common paths that others run ;</l>
+        <l>And on a strange road journeyed on,</l>
+        <l>Heedless, alike of wealth and power —</l>
+        <l>Of glory's wreath and pleasure's flower.</l>
+      </lg>
+
+      <lg>
+        <l>These, once, indeed, seemed Beings Divine ;</l>
+        <l>And they, perchance, heard vows of mine,</l>
+        <l>And saw my offerings on their shrine ;</l>
+        <l>But careless gifts are seldom prized,</l>
+        <l>And mine were worthily despised.</l>
+      </lg>
+
+      <lg>
+        <l>So, with a ready heart, I swore</l>
+        <l>To seek their altar-stone no more ;</l>
+        <l>And gave my spirit to adore</l>
+        <l>Thee, ever-present, phantom thing—</l>
+        <l>My slave, my comrade, and my king.</l>
+      </lg>
+
+      <lg>
+        <l>A slave, because I rule thee still ;</l>
+        <l>Incline thee to my changeful will,</l>
+        <l>And make thy influence good or ill :</l>
+        <l>A comrade, for by day and night</l>
+        <l>Thou art my intimate delight,—</l>
+      </lg>
+
+      <lg>
+        <l>My darling pain that wounds and sears,</l>
+        <l>And wrings a blessing out from tears</l>
+        <l>By deadening me to earthly cares ;</l>
+        <l>And yet, a king, though Prudence well</l>
+        <l>Have taught thy subject to rebel.</l>
+      </lg>
+
+      <lg>
+        <l>And am I wrong to worship where</l>
+        <l>Faith cannot doubt, nor hope despair,</l>
+        <l>Since my own soul can grant my prayer ?</l>
+        <l>Speak, God of visions, plead for me,</l>
+        <l>And tell why I have chosen thee !</l>
+      </lg>
+
+    </div>
+  </body>
+</text>
+
+
+    </group>
+
+
+    <back>
+      <div type="colophon">
+        <p>Encoded in TEI for an academic master project in Humanities.</p>
+      </div>
+    </back>
+
+  </text>
+</TEI>

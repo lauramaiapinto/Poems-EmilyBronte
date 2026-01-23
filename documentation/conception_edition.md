@@ -1,4 +1,4 @@
-# Conception d'étition
+# Conception d'édition
 
 ### Objectif
 
