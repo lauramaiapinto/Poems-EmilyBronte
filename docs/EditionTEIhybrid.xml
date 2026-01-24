@@ -125,7 +125,7 @@
       </lg>
       <lg>
         <l>I turned me to the pillow then</l>
-        <l>To call back <seg ana="season">Night</seg>, and see</l>
+        <l>To call back <seg ana="time">Night</seg>, and see</l>
         <l>Your worlds of solemn light, again</l>
         <l>Throb with my heart and me!</l>
       </lg>
@@ -142,8 +142,8 @@
         <l>And give them leave to roam.</l>
       </lg>
       <lg>
-        <l>O <seg ana="love">Stars</seg> and <seg ana="love">Dreams</seg> and Gentle <seg ana="season">Night</seg>;</l>
-        <l>O <seg ana="season">Night</seg> and <seg ana="love">Stars</seg> return!</l>
+        <l>O <seg ana="love">Stars</seg> and <seg ana="love">Dreams</seg> and Gentle <seg ana="time">Night</seg>;</l>
+        <l>O <seg ana="time">Night</seg> and <seg ana="love">Stars</seg> return!</l>
         <l>And hide me from the hostile light</l>
         <l>That does not warm, but burn—</l>
       </lg>
@@ -165,16 +165,16 @@
     <div type="poem">
       <head>Fall, Leaves, Fall</head>
       <lg>
-        <l><seg ana="season">Fall</seg>, <seg ana="nature">leaves</seg>, <seg ana="season">fall</seg>; die, <seg ana="nature">flowers</seg>, away;</l>
-        <l>Lengthen <seg ana="season">night</seg> and shorten <seg ana="season">day</seg>;</l>
+        <l><seg ana="time">Fall</seg>, <seg ana="nature">leaves</seg>, <seg ana="time">fall</seg>; die, <seg ana="nature">flowers</seg>, away;</l>
+        <l>Lengthen <seg ana="time">night</seg> and shorten <seg ana="time">day</seg>;</l>
         <l>Every <seg ana="nature">leaf</seg> speaks <seg ana="love">bliss</seg> to me</l>
         <l>Fluttering from the <seg ana="nature">autumn tree</seg>.</l>
       </lg>
       <lg>
-        <l>I shall smile when wreaths of <seg ana="season">snow</seg></l>
+        <l>I shall smile when wreaths of <seg ana="time">snow</seg></l>
         <l>Blossom where the <seg ana="nature">rose</seg> should grow;</l>
-        <l>I shall sing when <seg ana="season">night’s decay</seg></l>
-        <l>Ushers in a <seg ana="season">drearier day</seg>.</l>
+        <l>I shall sing when <seg ana="time">night’s decay</seg></l>
+        <l>Ushers in a <seg ana="time">drearier day</seg>.</l>
       </lg>
     </div>
   </body>
@@ -193,15 +193,15 @@
         <l>But which will bloom most constantly?</l>
       </lg>
       <lg>
-        <l>The <seg ana="nature">wild rose-briar</seg> is sweet in <seg ana="season">spring</seg>,</l>
-        <l>Its <seg ana="season">summer blossoms</seg> scent the air;</l>
-        <l>Yet wait till <seg ana="season">winter</seg> comes again</l>
+        <l>The <seg ana="nature">wild rose-briar</seg> is sweet in <seg ana="time">spring</seg>,</l>
+        <l>Its <seg ana="time">summer blossoms</seg> scent the air;</l>
+        <l>Yet wait till <seg ana="time">winter</seg> comes again</l>
         <l>And who will call the <seg ana="nature">wild-briar</seg> fair?</l>
       </lg>
       <lg>
         <l>Then scorn the silly <seg ana="nature">rose-wreath</seg> now</l>
         <l>And deck thee with the <seg ana="nature">holly’s sheen</seg>,</l>
-        <l>That when <seg ana="season">December</seg> blights thy brow</l>
+        <l>That when <seg ana="time">December</seg> blights thy brow</l>
         <l>He still may leave thy garland green.</l>
       </lg>
     </div>
@@ -270,7 +270,7 @@
       <lg>
         <l><seg ana="sadness">Long neglect</seg> has worn away</l>
         <l>Half the sweet enchanting <seg ana="love">smile</seg>;</l>
-        <l><seg ana="season">Time</seg> has turned the bloom to gray;</l>
+        <l><seg ana="time">Time</seg> has turned the bloom to gray;</l>
         <l><seg ana="nature">Mold</seg> and <seg ana="nature">damp</seg> the face defile.</l>
       </lg>
       <lg>
@@ -300,7 +300,7 @@
         <l>Come, the <seg ana="nature">wind</seg> may never again</l>
         <l>Blow as now it blows for us;</l>
         <l>And the <seg ana="nature">stars</seg> may never again shine as now they shine;</l>
-        <l>Long before <seg ana="season">October</seg> returns,</l>
+        <l>Long before <seg ana="time">October</seg> returns,</l>
         <l><seg ana="sadness">Seas of blood</seg> will have parted us;</l>
         <l>And you must crush the <seg ana="love">love</seg> in your heart, and I the <seg ana="love">love</seg> in mine!</l>
       </lg>
@@ -315,10 +315,10 @@
     <div type="poem">
       <head>Remembrance</head>
       <lg>
-        <l>Cold in the <seg ana="nature">earth</seg>—and the deep <seg ana="season">snow</seg> piled above thee,</l>
+        <l>Cold in the <seg ana="nature">earth</seg>—and the deep <seg ana="time">snow</seg> piled above thee,</l>
         <l>Far, far removed, cold in the <seg ana="sadness">dreary grave</seg>!</l>
         <l>Have I forgot, my only <seg ana="love">Love</seg>, to love thee,</l>
-        <l>Severed at last by <seg ana="season">Time</seg>'s all-severing wave?</l>
+        <l>Severed at last by <seg ana="time">Time</seg>'s all-severing wave?</l>
       </lg>
       <lg>
         <l>Now, when alone, do my <seg ana="sadness">thoughts</seg> no longer hover</l>
@@ -327,20 +327,20 @@
         <l>Thy noble <seg ana="love">heart</seg> forever, ever more?</l>
       </lg>
       <lg>
-        <l>Cold in the <seg ana="nature">earth</seg>—and fifteen wild <seg ana="season">Decembers</seg>,</l>
-        <l>From those brown <seg ana="nature">hills</seg>, have melted into <seg ana="season">spring</seg>:</l>
+        <l>Cold in the <seg ana="nature">earth</seg>—and fifteen wild <seg ana="time">Decembers</seg>,</l>
+        <l>From those brown <seg ana="nature">hills</seg>, have melted into <seg ana="time">spring</seg>:</l>
         <l>Faithful, indeed, is the <seg ana="love">spirit</seg> that remembers</l>
         <l>After such years of <seg ana="sadness">change and suffering</seg>!</l>
       </lg>
       <lg>
         <l>Sweet <seg ana="love">Love</seg> of youth, forgive, if I forget thee,</l>
-        <l>While the world's <seg ana="season">tide</seg> is bearing me along;</l>
+        <l>While the world's <seg ana="time">tide</seg> is bearing me along;</l>
         <l>Other desires and other hopes beset me,</l>
         <l>Hopes which obscure, but cannot do thee <seg ana="sadness">wrong</seg>!</l>
       </lg>
       <lg>
-        <l>No later <seg ana="season">light</seg> has lightened up my <seg ana="nature">heaven</seg>,</l>
-        <l>No second <seg ana="season">morn</seg> has ever shone for me;</l>
+        <l>No later <seg ana="time">light</seg> has lightened up my <seg ana="nature">heaven</seg>,</l>
+        <l>No second <seg ana="time">morn</seg> has ever shone for me;</l>
         <l>All my life's <seg ana="love">bliss</seg> from thy dear life was given,</l>
         <l>All my life's <seg ana="love">bliss</seg> is in the <seg ana="nature">grave</seg> with thee.</l>
       </lg>
@@ -377,7 +377,7 @@
         <l>In secret <seg ana="love">pleasure</seg>, secret <seg ana="sadness">tears</seg>,</l>
         <l>This <seg ana="love">changeful life</seg> has slipped away,</l>
         <l>As friendless after eighteen years,</l>
-        <l>As lone as on my <seg ana="season">natal day</seg>.</l>
+        <l>As lone as on my <seg ana="time">natal day</seg>.</l>
       </lg>
       <lg>
         <l>There have been times I cannot hide,</l>
@@ -421,8 +421,8 @@
         <l>Despite thy wayward will.</l>
       </lg>
       <lg>
-        <l>When day with <seg ana="season">evening blending</seg></l>
-        <l>Sinks from the <seg ana="season">summer sky</seg>,</l>
+        <l>When day with <seg ana="time">evening blending</seg></l>
+        <l>Sinks from the <seg ana="time">summer sky</seg>,</l>
         <l>I've seen thy <seg ana="love">spirit</seg> bending</l>
         <l>In fond idolatry.</l>
       </lg>
@@ -455,14 +455,14 @@
         <l>While thy <seg ana="love">heart</seg> suffers there.</l>
       </lg>
       <lg>
-        <l>I'll not weep, because the <seg ana="season">summer's glory</seg></l>
+        <l>I'll not weep, because the <seg ana="time">summer's glory</seg></l>
         <l>Must always end in <seg ana="sadness">gloom</seg>;</l>
         <l>And, follow out the happiest story—</l>
         <l>It closes with a <seg ana="sadness">tomb</seg>!</l>
       </lg>
       <lg>
         <l>And I am weary of the <seg ana="sadness">anguish</seg></l>
-        <l>Increasing <seg ana="season">winters</seg> bear;</l>
+        <l>Increasing <seg ana="time">winters</seg> bear;</l>
         <l>Weary to watch the <seg ana="love">spirit</seg> languish</l>
         <l>Through years of dead <seg ana="sadness">despair</seg>.</l>
       </lg>
