@@ -1,10 +1,9 @@
 
-
-html {
+*|html {
     background-color: #2b1f1f;
 }
 
-body {
+*|body {
     background-color: #2b1f1f;
     color: #f2e9dc;
     font-family: "Times New Roman", serif;
@@ -13,8 +12,7 @@ body {
 }
 
 
-
-body > div {
+*|body > *|div {
     max-width: 900px;
     margin: 50px auto;
     padding: 40px;
@@ -23,8 +21,7 @@ body > div {
     border-radius: 6px;
 }
 
-
-h1 {
+*|h1 {
     text-align: center;
     font-size: 2.3em;
     margin-bottom: 25px;
@@ -32,7 +29,7 @@ h1 {
     line-height: 1.2em;
 }
 
-h2 {
+*|h2 {
     text-align: center;
     font-size: 1.6em;
     margin-top: 45px;
@@ -42,7 +39,7 @@ h2 {
     color: #d8c1b4;
 }
 
-h4 {
+*|h4 {
     font-size: 1.2em;
     margin-top: 35px;
     margin-bottom: 10px;
@@ -50,29 +47,25 @@ h4 {
 }
 
 
-
-p {
+*|p {
     line-height: 1.6em;
     margin-bottom: 1em;
     color: #f2e9dc;
 }
 
-
-
-a {
+*|a {
     color: #d7cbc1;
     text-decoration: none;
     border-bottom: 1px dotted #a56b6b;
 }
 
-a:hover {
+*|a:hover {
     color: #ffffff;
     border-bottom: 1px solid #f2e9dc;
 }
 
 
-
-h2 + a {
+*|h2 + *|a {
     display: block;
     text-align: center;
     font-style: italic;
@@ -81,20 +74,18 @@ h2 + a {
 }
 
 
-
-ul {
+*|ul {
     list-style: square;
     margin-left: 40px;
     margin-bottom: 35px;
 }
 
-li {
+*|li {
     margin-bottom: 7px;
     color: #eaddd1;
 }
 
-
-details {
+*|details {
     margin: 15px 0;
     padding: 12px 18px;
     background-color: #2f2222;
@@ -102,35 +93,33 @@ details {
     border-radius: 4px;
 }
 
-summary {
+*|summary {
     font-weight: bold;
     font-size: 1.1em;
     cursor: pointer;
     color: #d8c1b4;
 }
 
-details[open] summary {
+*|details[open] *|summary {
     margin-bottom: 10px;
     padding-bottom: 6px;
     border-bottom: 1px solid #5b3d3d;
 }
 
 
-
-details ul {
+*|details *|ul {
     list-style: circle;
     margin-left: 30px;
     margin-bottom: 10px;
     font-size: 0.95em;
 }
 
-details li {
+*|details *|li {
     color: #cfc0b4;
 }
 
 
-
-body > div::before {
+*|body > *|div::before {
     content: "— Index de l’édition numérique —";
     display: block;
     text-align: center;
