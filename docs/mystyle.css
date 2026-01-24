@@ -192,3 +192,140 @@ div[type="contents"] item {
   display: list-item;
   margin-left: 20px;
 }
+
+/* séparation -> CSS pour ma page d'accueil */
+
+
+
+
+html, body {
+    background-color: #2b1f1f;
+    color: #f2e9dc;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body > div {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #3c2a2a;
+    border: 1px solid #5b3d3d;
+    border-radius: 6px;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #f4ebe2;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #5b3d3d;
+    padding-bottom: 5px;
+    color: #d8c1b4;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #c9b8a6;
+}
+
+
+p {
+    line-height: 1.6em;
+    margin-bottom: 1em;
+    color: #f2e9dc;
+}
+
+
+
+a {
+    color: #d7cbc1;
+    text-decoration: none;
+    border-bottom: 1px dotted #a56b6b;
+}
+
+a:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #f2e9dc;
+}
+
+
+
+ul {
+    list-style: square;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    color: #eaddd1;
+}
+
+
+
+h2 + a {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #c7b9ad;
+}
+
+
+
+details {
+    margin: 15px 0;
+    padding: 10px 15px;
+    background-color: #2f2222;
+    border: 1px solid #5b3d3d;
+    border-radius: 4px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #d8c1b4;
+    font-size: 1.1em;
+}
+
+details[open] summary {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #5b3d3d;
+    padding-bottom: 5px;
+}
+
+
+details ul {
+    list-style: circle;
+    margin-left: 30px;
+    font-size: 0.95em;
+}
+
+details li {
+    color: #cfc0b4;
+}
+
+
+
+body > div::before {
+    content: "— Index de l’édition numérique —";
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: #b8a89b;
+    letter-spacing: 0.05em;
+}
