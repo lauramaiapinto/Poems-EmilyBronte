@@ -60,7 +60,7 @@
     <div type="poem">
       <head>The Night is Darkening Round Me</head>
       <lg>
-        <l>The <seg ana="nature" <a href="index.html#nature">>night<a/></seg> is darkening round me,</l>
+        <l>The <seg ana="nature" ref="index.html#nature">night</seg> is darkening round me,</l>
         <l>The <seg ana="nature">wild winds</seg> coldly blow;</l>
         <l>But a tyrant spell has bound me</l>
         <l>And I cannot, cannot go.</l>
