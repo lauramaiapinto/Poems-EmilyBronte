@@ -1,0 +1,47 @@
+## XPath
+
+La requête XPath que j'ai retenue m'a permi d'extraire les segments que j'ai ressorti dans chaque poème, en les séparants selon leurs thèmes respectifs. Voici les requêtes:
+
+```
+<ul>
+{
+for $segnat in //seg[@ana="nature"]/text()
+return
+<li>{$segnat}</li>
+}
+</ul>
+
+
+<ul>
+{
+for $seglove in //seg[@ana="love"]/text()
+return
+<li>{$seglove}</li>
+}
+</ul>
+
+
+<ul>
+{
+for $segsadness in //seg[@ana="sadness"]/text()
+return
+<li>{$segsadness}</li>
+}
+</ul>
+
+
+<ul>
+{
+for $segseason in //seg[@ana="season"]/text()
+return
+<li>{$segseason}</li>
+}
+</ul>
+```
+
+J'ai notamment fait en sorte que le résultat soit déjà codé en liste, grâce aux balises `<ul>` et `<li>`. Le résultat fut le suivant:
+
+
+```
+<ul><li>night</li><li>wild winds</li><li>giant trees</li><li>bare boughs</li><li>snow</li><li>Clouds</li><li>clouds</li><li>Wastes</li><li>wastes</li><li>dazzling sun</li><li>night</li><li>beams</li><li>petrel</li><li>sea</li><li>leaves</li><li>flowers</li><li>leaf</li><li>autumn tree</li><li>rose</li><li>wild rose-briar</li><li>holly-tree</li><li>holly</li><li>rose-briar</li><li>wild rose-briar</li><li>wild-briar</li><li>rose-wreath</li><li>holly’s sheen</li><li>withered weeds</li><li>main</li><li>earth</li><li>moon</li><li>suns</li><li>universes</li><li>Mold</li><li>damp</li><li>lock of silky hair</li><li>wind</li><li>stars</li><li>earth</li><li>mountains</li><li>wings</li><li>heath</li><li>fern-leaves</li><li>earth</li><li>hills</li><li>heaven</li><li>grave</li><li>tomb</li><li>Earth</li><li>Nature</li><li>mountain breezes</li><li>sunshine</li><li>earth</li><li>Earth</li></ul>
+```
