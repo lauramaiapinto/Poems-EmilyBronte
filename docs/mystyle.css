@@ -200,4 +200,17 @@ seg[ana="love"] {
 }
 
 
+seg[ana="nature"] {
+  display: inline;
+  color: green
+}
 
+seg[ana="sadness"] {
+  display: inline;
+  color: blue
+}
+
+seg[ana="time"] {
+  display: inline;
+  color: violet
+}
