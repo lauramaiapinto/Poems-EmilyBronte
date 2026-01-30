@@ -194,5 +194,10 @@ div[type="contents"] item {
 }
 
 
+seg[ana="love"] {
+  display: inline;
+  color: red
+}
+
 
 
